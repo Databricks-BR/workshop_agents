@@ -1,0 +1,10 @@
+streamlit
+databricks-langchain
+langgraph==0.5.3
+databricks-agents
+mlflow-skinny[databricks]
+langgraph-checkpoint-postgres==2.0.21
+psycopg[binary,pool]
+databricks-sdk
+pydantic
+python-dotenv
