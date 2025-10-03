@@ -151,7 +151,7 @@ def get_lakebase_config():
 tools = []
 
 # Example UC tools; add your own as needed
-UC_TOOL_NAMES: list[str] = ['ericos_catalog.default.chat_with_sales']
+UC_TOOL_NAMES: list[str] = ['vinicius_fialho_testes.workshop_ml_agentes.chat_with_sales']
 if UC_TOOL_NAMES:
     uc_toolkit = UCFunctionToolkit(function_names=UC_TOOL_NAMES)
     tools.extend(uc_toolkit.tools)

@@ -1,0 +1,11 @@
+# Simple version without database (feature/no-database branch)
+command:
+- streamlit
+- run
+- streamlit_simple_agent.py
+
+env:
+- name: GENIE_SPACE_ID
+  value: 01ef3eeec9551c85baf65410ecb3fdf2
+- name: DATABRICKS_WAREHOUSE_ID
+  value: sql-warehouse

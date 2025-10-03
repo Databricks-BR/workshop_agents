@@ -1,0 +1,5 @@
+streamlit
+databricks-langchain
+databricks-sdk
+pydantic
+python-dotenv
